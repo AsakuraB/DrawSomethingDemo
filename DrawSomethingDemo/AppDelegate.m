@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "IJWDrawViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,19 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    IJWDrawViewController *dvc = [[IJWDrawViewController alloc] init];
+    self.window.rootViewController = dvc;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+#ifdef VIEW_DEBUG
+    NSLog(@"VIEW_DEBUG:%@", [self.window performSelector:@selector(recursiveDescription)]);
+#endif
+    
     return YES;
 }
 

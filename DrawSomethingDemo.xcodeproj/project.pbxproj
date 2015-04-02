@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		4CF6CF9F1AC7E79E00AE6FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6CF9E1AC7E79E00AE6FA6 /* main.m */; };
 		4CF6CFA21AC7E79E00AE6FA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6CFA11AC7E79E00AE6FA6 /* AppDelegate.m */; };
-		4CF6CFA51AC7E79E00AE6FA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6CFA41AC7E79E00AE6FA6 /* ViewController.m */; };
-		4CF6CFA81AC7E79E00AE6FA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF6CFA61AC7E79E00AE6FA6 /* Main.storyboard */; };
 		4CF6CFAA1AC7E79E00AE6FA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF6CFA91AC7E79E00AE6FA6 /* Images.xcassets */; };
 		4CF6CFAD1AC7E79E00AE6FA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF6CFAB1AC7E79E00AE6FA6 /* LaunchScreen.xib */; };
 		4CF6CFB91AC7E79E00AE6FA6 /* DrawSomethingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6CFB81AC7E79E00AE6FA6 /* DrawSomethingDemoTests.m */; };
+		4CF6CFC41AC7E8C800AE6FA6 /* IJWLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6CFC31AC7E8C800AE6FA6 /* IJWLine.m */; };
+		4CF6CFC71AC7E91B00AE6FA6 /* IJWDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6CFC61AC7E91B00AE6FA6 /* IJWDrawView.m */; };
+		4CF6CFCA1AC7E94F00AE6FA6 /* IJWDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6CFC91AC7E94F00AE6FA6 /* IJWDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,17 @@
 		4CF6CF9E1AC7E79E00AE6FA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CF6CFA01AC7E79E00AE6FA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CF6CFA11AC7E79E00AE6FA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4CF6CFA31AC7E79E00AE6FA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4CF6CFA41AC7E79E00AE6FA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4CF6CFA71AC7E79E00AE6FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CF6CFA91AC7E79E00AE6FA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CF6CFAC1AC7E79E00AE6FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4CF6CFB21AC7E79E00AE6FA6 /* DrawSomethingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawSomethingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF6CFB71AC7E79E00AE6FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CF6CFB81AC7E79E00AE6FA6 /* DrawSomethingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawSomethingDemoTests.m; sourceTree = "<group>"; };
+		4CF6CFC21AC7E8C800AE6FA6 /* IJWLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJWLine.h; path = Model/IJWLine.h; sourceTree = "<group>"; };
+		4CF6CFC31AC7E8C800AE6FA6 /* IJWLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJWLine.m; path = Model/IJWLine.m; sourceTree = "<group>"; };
+		4CF6CFC51AC7E91B00AE6FA6 /* IJWDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJWDrawView.h; path = Model/IJWDrawView.h; sourceTree = "<group>"; };
+		4CF6CFC61AC7E91B00AE6FA6 /* IJWDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJWDrawView.m; path = Model/IJWDrawView.m; sourceTree = "<group>"; };
+		4CF6CFC81AC7E94F00AE6FA6 /* IJWDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJWDrawViewController.h; sourceTree = "<group>"; };
+		4CF6CFC91AC7E94F00AE6FA6 /* IJWDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJWDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +87,12 @@
 			children = (
 				4CF6CFA01AC7E79E00AE6FA6 /* AppDelegate.h */,
 				4CF6CFA11AC7E79E00AE6FA6 /* AppDelegate.m */,
-				4CF6CFA31AC7E79E00AE6FA6 /* ViewController.h */,
-				4CF6CFA41AC7E79E00AE6FA6 /* ViewController.m */,
-				4CF6CFA61AC7E79E00AE6FA6 /* Main.storyboard */,
+				4CF6CFC21AC7E8C800AE6FA6 /* IJWLine.h */,
+				4CF6CFC31AC7E8C800AE6FA6 /* IJWLine.m */,
+				4CF6CFC51AC7E91B00AE6FA6 /* IJWDrawView.h */,
+				4CF6CFC61AC7E91B00AE6FA6 /* IJWDrawView.m */,
+				4CF6CFC81AC7E94F00AE6FA6 /* IJWDrawViewController.h */,
+				4CF6CFC91AC7E94F00AE6FA6 /* IJWDrawViewController.m */,
 				4CF6CFA91AC7E79E00AE6FA6 /* Images.xcassets */,
 				4CF6CFAB1AC7E79E00AE6FA6 /* LaunchScreen.xib */,
 				4CF6CF9C1AC7E79E00AE6FA6 /* Supporting Files */,
@@ -199,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF6CFA81AC7E79E00AE6FA6 /* Main.storyboard in Resources */,
 				4CF6CFAD1AC7E79E00AE6FA6 /* LaunchScreen.xib in Resources */,
 				4CF6CFAA1AC7E79E00AE6FA6 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF6CFA51AC7E79E00AE6FA6 /* ViewController.m in Sources */,
+				4CF6CFC71AC7E91B00AE6FA6 /* IJWDrawView.m in Sources */,
 				4CF6CFA21AC7E79E00AE6FA6 /* AppDelegate.m in Sources */,
+				4CF6CFCA1AC7E94F00AE6FA6 /* IJWDrawViewController.m in Sources */,
+				4CF6CFC41AC7E8C800AE6FA6 /* IJWLine.m in Sources */,
 				4CF6CF9F1AC7E79E00AE6FA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +252,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4CF6CFA61AC7E79E00AE6FA6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CF6CFA71AC7E79E00AE6FA6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CF6CFAB1AC7E79E00AE6FA6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,7 +343,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					VIEW_DEBUG,
+				);
 				INFOPLIST_FILE = DrawSomethingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawSomethingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +419,7 @@
 				4CF6CFBE1AC7E79E00AE6FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CF6CFBF1AC7E79E00AE6FA6 /* Build configuration list for PBXNativeTarget "DrawSomethingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +428,7 @@
 				4CF6CFC11AC7E79E00AE6FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

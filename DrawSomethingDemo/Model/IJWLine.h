@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface IJWLine : NSObject
+
+@property (nonatomic) CGPoint begin;
+@property (nonatomic) CGPoint end;
 
 @end
